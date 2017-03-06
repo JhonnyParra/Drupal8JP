@@ -1,0 +1,4 @@
+name: try module
+core: 8.x
+type: module
+package: try
