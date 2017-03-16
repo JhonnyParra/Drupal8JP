@@ -1,0 +1,14 @@
+<?php
+
+function try_moduleF_theme($existing, $type, $theme, $path){
+  return array(
+    'pagina_1' => array(
+      'variables' => array(
+        'titulo' => 'Página 1',
+        'descripcion' => NULL,
+        'formulario' => NULL,
+      ),
+      'template' => 'pagina-1'
+    )
+  );
+}

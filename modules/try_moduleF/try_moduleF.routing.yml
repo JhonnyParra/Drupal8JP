@@ -1,0 +1,7 @@
+try_moduleF.pagina_1:
+  path: '/pagina-1'
+  defaults:
+    _controller: 'Drupal\try_moduleF\Controller\tryModuleFController::pagina_1'
+    _title: 'Página 1'
+  requeriments:
+    _permission: 'access content'
